@@ -1,11 +1,12 @@
-name: CI workflow
+name: CI-CD Workflow
 on:
   push:
-    branches: 
+    branches:
       - main
   pull_request:
-    branches: 
+    branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
